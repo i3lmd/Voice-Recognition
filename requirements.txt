@@ -1,0 +1,13 @@
+# This file contains the list of required packages for the project.
+# You can install them using pip.
+
+# ! ( pip install -r requirements.txt )
+
+# The packages are:
+
+speech_recognition
+pyttsx3
+pywhatkit
+datetime
+wikipedia
+pyjokes
