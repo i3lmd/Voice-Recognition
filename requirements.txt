@@ -5,9 +5,7 @@
 
 # The packages are:
 
-speech_recognition
-pyttsx3
+SpeechRecognition
 pywhatkit
-datetime
 wikipedia
 pyjokes
