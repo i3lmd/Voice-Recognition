@@ -44,6 +44,7 @@ def clean_command(command):
     filler_phrases = [
         "oh yeah", "by the way", "so", "and", "then", "well", "okay", "ok" , "based on that", 
         "you know", "actually", "just", "though", "like", "um", "uh", "ah", "hmm", "let's see",
+        "can you", "speaking of", "which", 
     ]
     for phrase in filler_phrases:
         command = command.replace(phrase, "")
@@ -78,7 +79,7 @@ def run_alexa():
     If a command is not recognized, the assistant replies with: 
     "Sorry, I didn't understand that command."
     """
-    
+
     command = get_command()
     if not command:
         return
@@ -129,7 +130,7 @@ elif "what can you do" in command:
     responses = [
         "I can play music, tell jokes, give you the time or date, calculate math, and answer general questions.",
         "I'm here to help with music, jokes, time, math, and more.",
-        "I can assist you with calculations, fun facts, and playing songs—just ask!",
+        "I can assist you with calculations, funny jokes, and playing songs—just ask!",
         "My skills include telling jokes, providing time or date, doing math, and answering questions."
     ]
     engine_talk(random.choice(responses))
