@@ -68,6 +68,6 @@ Welcome to **Alexa Assistant in Python**, a fully voice-controlled, terminal-bas
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/alexa-assistant-python.git
+git clone https://github.com/i3lmd/Voice-Recognition.git
 cd alexa-assistant-python
 pip install -r requirements.txt
