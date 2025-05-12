@@ -11,7 +11,7 @@ Welcome to **Alexa Assistant in Python**, a fully voice-controlled, terminal-bas
 ✅ **Voice Recognition** via `speech_recognition`  
 ✅ **Play YouTube Music** via `pywhatkit`  
 ✅ **Ask Anything** with answers from **Wikipedia**  
-✅ **Get the Date & Time **  
+✅ **Get the Date & Time**  
 ✅ **Ask for Definitions**  
 ✅ **Tell Jokes** using `pyjokes`  
 ✅ **Perform Basic Math** with natural language  
